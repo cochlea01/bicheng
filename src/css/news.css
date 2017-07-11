@@ -1,0 +1,65 @@
+.newsDetailBoard {
+  position: relative;
+  background: #050a26;
+  height: 700px;
+  width: 100%;
+  top: -7rem;
+  padding: 0;
+  color: #fff;
+}
+.newsDetailBoard .titleDate {
+  background: #101330;
+}
+.newsDetailBoard .title {
+  background: #101330;
+  padding: 1rem 0 1rem 2rem;
+  font-size: 1.2rem;
+}
+.newsDetailBoard .date {
+  background: #101330;
+  font-size: 0.8rem;
+  padding: 1rem;
+}
+.newsDetailBoard .newsContent {
+  padding: 1rem 2rem;
+}
+.newsDetailBoard .newsContent p {
+  text-indent: 2rem;
+  font-size: 1rem;
+}
+.newsDetailBoard .newsContent img {
+  display: block;
+  margin: 0.5rem auto;
+}
+.newsDetailBoard .newsContent {
+  height: 600px;
+  overflow-y: scroll;
+}
+
+.newsList {
+  padding: 0 12rem;
+  color: #fff;
+  margin: 0 0 3rem 0;
+  position: relative;
+}
+.newsList .swiper-pagination {
+  color: #fff;
+  left: 0;
+  right: 0;
+}
+.newsList .swiper-pagination .swiper-pagination-bullet {
+  background: #fff;
+  margin: 0 0.2rem;
+}
+.newsList .btn #btnPrev, .newsList .btn #btnNext {
+  position: absolute;
+  top: -1rem;
+  font-size: 2rem;
+  display: block;
+}
+.newsList .btn #btnPrev {
+  left: 4rem;
+}
+.newsList .btn #btnNext {
+  right: 4rem;
+}

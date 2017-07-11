@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+@@include('../include/web_header.html')
+<link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid"></div>
+<div id="contact" class="container">
+	<div class="row">
+		<div class="col-xs-12">
+   			<img src="/img/images/mapContent.png" style="width:32%;" alt="">
+		</div>
+	</div>
+    <div id="allmap">
+        
+    </div>
+</div>
+<div id="footer" class="container-fluid"></div>
+@@include('../include/web_footer.html')
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=B3fT3PquX9QsBk6hWBUbyFofeIOQ1HPj"></script>
+<script>
+	seajs.use("page/include");
+	seajs.use("page/cyyMap.js")
+</script>
+</body>
+</html>

@@ -1,0 +1,221 @@
+.sectionHeading .title1 {
+  font-size: 1.4rem;
+  color: #060316;
+  background-image: linear-gradient(to right, #dfab36 0%, #e8ce68 100%);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#FFDFAB36', endColorstr='#FFE8CE68', GradientType=1);
+  background-color: #e8ce68;
+  width: 7rem;
+  text-align: center;
+}
+.sectionHeading .title2 {
+  color: #555063;
+  padding-left: 0.6rem;
+  margin-top: 0.5rem;
+}
+
+.industryAdvantage img {
+  width: 100%;
+}
+
+.industryAdvantage .item {
+  position: relative;
+  transition: all 0.3s;
+  margin-top: 5rem;
+}
+
+.industryAdvantage .item .title {
+  position: absolute;
+  bottom: 5rem;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.industryAdvantage .item .desc {
+  transition: all 0.3s;
+  color: #9b9a9f;
+  font-size: 0.9rem;
+  opacity: 0;
+  height: 5rem;
+  padding: 0.5rem 1.5rem;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.industryAdvantage .item:hover .desc {
+  opacity: 1;
+}
+
+.industryAdvantage .item:hover {
+  transform: translate3d(0, -3rem, 0);
+  -webkit-transform: translate3d(0, -3rem, 0);
+}
+
+.strategyLayoutLine, .strategyLayoutLineCover {
+  height: 1px;
+  position: absolute;
+  background: #555555;
+  top: 12.8rem;
+  left: 0;
+  right: 0;
+}
+
+.strategyLayoutLineCover {
+  background: #e2b545;
+  width: 0;
+}
+
+.strategyLayout .item {
+  text-align: center;
+}
+.strategyLayout .item .num {
+  line-height: 2rem;
+  font-size: 1.5rem;
+  color: #333366;
+}
+.strategyLayout .item .title {
+  line-height: 2rem;
+  color: #333366;
+}
+.strategyLayout .item .dot {
+  border-radius: 50%;
+  background: #fff;
+  display: block;
+  width: 0.5rem;
+  height: 0.5rem;
+  margin: 1rem auto;
+  box-shadow: 0px 0px 0px 6px #333366;
+}
+.strategyLayout .item:hover .dot {
+  background: #fff;
+  box-shadow: 0px 0px 0px 6px #e5c459;
+}
+.strategyLayout .item:hover .num {
+  color: #e5c459;
+}
+.strategyLayout .item:hover .title {
+  color: #fff;
+}
+
+#strategyLayoutContent {
+  min-height: 2rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 2rem;
+}
+
+#strategyLayout {
+  background-image: url(/img/indexSection2_bg.png);
+  padding: 1rem 0;
+  background-size: auto 440px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.strategyLayout {
+  margin-top: 1.8rem;
+}
+
+.introduction {
+  color: #fff;
+  border: 1px solid #85828f;
+  position: relative;
+  padding: 0 0 3rem 0;
+  margin: 2rem auto;
+}
+.introduction img {
+  display: block;
+  margin-top: -1rem;
+  margin-left: -1rem;
+  max-height: 15rem;
+  width: auto;
+  max-width: 100%;
+}
+.introduction .title {
+  margin-top: -1rem;
+  background: #0b051f;
+  width: 10rem;
+  margin-left: -2rem;
+  padding-left: 1.6rem;
+  text-align: center;
+}
+.introduction .content {
+  color: #757281;
+}
+.introduction .more {
+  right: 1rem;
+  bottom: 1rem;
+  display: block;
+  position: absolute;
+  background: #17132a;
+  border: none;
+  color: #64626d;
+  padding: 0.5rem 1rem;
+  z-index: 99;
+}
+
+.newsboard {
+  background: #086eb9;
+  height: 400px;
+  width: 250px;
+  margin-top: -88px;
+  margin-bottom: 5rem;
+  float: right;
+  padding-top: 2rem;
+  color: #fff;
+}
+
+.newsList li {
+  padding: 0.48rem 0;
+}
+.newsList a {
+  color: #fff;
+}
+.newsList a:hover .date {
+  background: #072c5a;
+}
+.newsList a:hover .news_title {
+  background: #0f4385;
+}
+.newsList .date {
+  height: 3rem;
+  font-weight: 600;
+  background: #2093e8;
+  padding: 0.3rem 0 0.3rem 0.2rem;
+}
+.newsList .date div:first-child {
+  font-size: 1.2rem;
+}
+.newsList .date div {
+  width: 100%;
+  text-align: center;
+  line-height: 1.2rem;
+  font-size: 0.9rem;
+}
+.newsList .date2 {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+.newsList .news_title {
+  height: 3rem;
+  font-size: 0.9rem;
+  padding: 0.2rem 0 0.1rem 0.2rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.investmentCreatesValue {
+  padding: 6rem 0 13rem 0;
+  background-image: url(/img/indexSection3_bg.png);
+  background-size: auto 600px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.investmentCreatesValue .title1 {
+  font-size: 2.5rem;
+  -webkit-mask-image: -webkit-gradient(linear, 0 0, 0 bottom, from(#ff0000), to(rgba(0, 0, 255, 0)));
+  background-color: #e8ce68;
+}

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+@@include('../include/web_header.html')
+<link rel="stylesheet" href="/css/swiper.min.css">
+<link rel="stylesheet" href="/css/contact.css">
+</head>
+
+<body>
+<div id="header" class="container-fluid"></div>
+<div id="contact" class="container employ">
+    <div class="row">
+        <div class="col-xs-12">
+            <img src="/img/images/employContent.png" style="width: 90%;" alt="">
+        </div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="index">
+                        1
+                    </div>
+                    <div class="profession">客服专员</div>
+                    <div class="desc">
+                        <div class="title">
+                            岗位职责
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            <br>2.公司日常的后勤采购和管理；
+                            <br>3.协助执行公司的各项规整制度和维护工作秩序；
+                            <br>4.协助行政经理对各项行政事务的安排及执行。
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            任职要求
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            <br>2.公司日常的后勤采购和管理；
+                            <br>3.协助执行公司的各项规整制度和维护工作秩序。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="index">
+                        1
+                    </div>
+                    <div class="profession">客服专员</div>
+                    <div class="desc">
+                        <div class="title">
+                            岗位职责
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            2.公司日常的后勤采购和管理；
+                            3.协助执行公司的各项规整制度和维护工作秩序；
+                            4.协助行政经理对各项行政事务的安排及执行。
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            任职要求
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            2.公司日常的后勤采购和管理；
+                            3.协助执行公司的各项规整制度和维护工作秩序。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="item">
+                    <div class="index">
+                        1
+                    </div>
+                    <div class="profession">客服专员</div>
+                    <div class="desc">
+                        <div class="title">
+                            岗位职责
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            2.公司日常的后勤采购和管理；
+                            3.协助执行公司的各项规整制度和维护工作秩序；
+                            4.协助行政经理对各项行政事务的安排及执行。
+                        </div>
+                    </div>
+                    <div class="desc">
+                        <div class="title">
+                            任职要求
+                        </div>
+                        <div class="detail">
+                            1.公司固定资产的采购和管理；
+                            2.公司日常的后勤采购和管理；
+                            3.协助执行公司的各项规整制度和维护工作秩序。
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                    <div class="item">
+                        <div class="index">
+                            1
+                        </div>
+                        <div class="profession">客服专员</div>
+                        <div class="desc">
+                            <div class="title">
+                                岗位职责
+                            </div>
+                            <div class="detail">
+                                1.公司固定资产的采购和管理；
+                                2.公司日常的后勤采购和管理；
+                                3.协助执行公司的各项规整制度和维护工作秩序；
+                                4.协助行政经理对各项行政事务的安排及执行。
+                            </div>
+                        </div>
+                        <div class="desc">
+                            <div class="title">
+                                任职要求
+                            </div>
+                            <div class="detail">
+                                1.公司固定资产的采购和管理；
+                                2.公司日常的后勤采购和管理；
+                                3.协助执行公司的各项规整制度和维护工作秩序。
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+        <!-- 如果需要分页器 -->
+        <div class="swiper-pagination"></div>
+    </div>
+</div>
+<div id="footer" class="container-fluid"></div>
+@@include('../include/web_footer.html')
+<script src="/js/swiper.jquery.min.js"></script>
+<script>
+	seajs.use("page/include");
+</script>
+<script>        
+    var mySwiper = new Swiper ('.swiper-container', {
+        direction: 'horizontal',
+        loop: true,
+        slidesPerView: 3,
+        spaceBetween: 20,
+        // 如果需要分页器
+        pagination: '.swiper-pagination'
+    })        
+</script>
+</body>
+</html>

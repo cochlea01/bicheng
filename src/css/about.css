@@ -1,0 +1,93 @@
+body {
+  background-image: url(/img/images/aboutBg.jpg);
+  background-size: auto 800px;
+  background-repeat: no-repeat;
+  background-position: center 0;
+  background-color: #020419;
+}
+
+#about {
+  color: #fff;
+  padding: 130px 0;
+}
+
+.menus .abstract .t1 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.menus .abstract .t2 {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 48px;
+}
+.menus .abstract .t3 {
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 24px;
+}
+.menus .abstract .t3 .t3_span {
+  margin-left: 10px;
+  padding: 0 20% 0 10px;
+  display: inline-block;
+  background: #e8ce68;
+  font-weight: normal;
+}
+.menus .list {
+  z-index: 1;
+}
+.menus .list .plus {
+  font-size: 60px;
+}
+.menus .list ul {
+  padding-top: 20px;
+}
+.menus .list ul li {
+  font-size: 14px;
+  line-height: 2;
+  cursor: pointer;
+}
+.menus .list ul li.active {
+  color: #e8ce68;
+}
+.menus .border {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #fff;
+  left: 20%;
+  z-index: -1;
+}
+.menus .border.border-top {
+  border-bottom: none;
+  height: 40px;
+  top: -40px;
+}
+.menus .border.border-bottom {
+  top: 96px;
+  width: 85%;
+  border-top: none;
+  border-right: none;
+  height: 260px;
+}
+
+.detail {
+  background: rgba(0, 0, 0, 0.6);
+  display: none;
+  padding: 20px 30px;
+  min-height: 448px;
+  z-index: 1;
+}
+.detail .row {
+  margin-bottom: 20px;
+}
+.detail.active {
+  display: block;
+}
+
+#enterpriseCulture .row {
+  margin-bottom: 0;
+}
+#enterpriseCulture .light {
+  font-size: 20px;
+  color: #e8ce68;
+}
